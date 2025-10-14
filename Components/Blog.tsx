@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <div className="pt-[4rem] md:pt-[8rem] pb-[4rem] bg-[#02050a]" id="blogs">
       <h1 className="heading">
-        Minhas <span className="text-yellow-400">redes sociais</span>
+        Minhas <span className="text-red-500">redes sociais</span>
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] gap-[3rem] w-[80%] mx-auto">
         <div data-aos="fade-up">
@@ -24,7 +24,7 @@ const Blog = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="w-fit px-[2rem] py-[1rem] bg-[#55e6e5] relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
+              <button className="w-fit px-[2rem] py-[1rem] bg-red-500 relative mt-[-3rem] text-white font-semibold text-[17px] mx-auto hover:bg-red-600 transition-all duration-200">
                 Venha conecte-se comigo no Linkedin
               </button>
             </a>
@@ -43,11 +43,11 @@ const Blog = () => {
           </div>
           <div className="w-[90%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[-1rem]">
             <a
-              href="https://www.instagram.com/kaio31vinicius/"
+              href="https://www.instagram.com/reconcavoosfilms/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="w-fit px-[2rem] py-[1rem] bg-[#55e6e5] relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
+              <button className="w-fit px-[2rem] py-[1rem] bg-red-500 relative mt-[-3rem] text-white font-semibold text-[17px] mx-auto hover:bg-red-600 transition-all duration-200">
                 Venha conecte-se comigo no Instagram
               </button>
             </a>
@@ -70,7 +70,7 @@ const Blog = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="w-fit px-[2rem] py-[1rem] bg-[#55e6e5] relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
+              <button className="w-fit px-[2rem] py-[1rem] bg-red-500 relative mt-[-3rem] text-white font-semibold text-[17px] mx-auto hover:bg-red-600 transition-all duration-200">
                 Venha conhecer mais projetos no meu Github
               </button>
             </a>

@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="flex items-center space-x-6">
           <div
             className="md:w-[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center 
-          rounded-full bg-[#55e6e5]"
+          rounded-full bg-red-500"
           >
             <MapIcon className="md:w-[5rem] md:h-[5rem] w-[3rem] h-[3rem] text-black" />
           </div>
@@ -30,11 +30,11 @@ const Footer = () => {
 
         <div className="flex items-center space-x-6">
           <a
-            href="https://wa.me/5571999999999"
+            href="https://wa.me/5575999838159"
             target="_blank"
             rel="noreferrer"
             className="md:w-[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center 
-          rounded-full bg-[#55e6e5]"
+          rounded-full bg-red-500"
           >
             <IoLogoWhatsapp className="md:w-[5rem] md:h-[5rem] w-[3rem] h-[3rem] text-black hover:text-white" />
           </a>
@@ -51,7 +51,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
               className="md:w-[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center 
-          rounded-full bg-[#55e6e5]"
+          rounded-full bg-red-500"
             >
             <EnvelopeIcon className="md:w-[5rem] md:h-[5rem] w-[3rem] h-[3rem] text-black hover:text-white" />
           </a>
@@ -70,7 +70,7 @@ const Footer = () => {
         <ScrollLink to="nav" smooth={true} duration={500} offset={-70}>
           <h1 className=" flex-[0.6] cursor-pointer text-[35px] text-white font-bold">
             ANTONIO
-            <span className="text-yellow-300">DEV</span>
+            <span className="text-red-500">DEV</span>
           </h1>
         </ScrollLink>
 

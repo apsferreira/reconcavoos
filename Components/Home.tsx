@@ -15,7 +15,7 @@ const Home = () => {
       <div className="w-[80%] grid-cols-1 mx-auto lg:grid-cols-2 gap-[3rem] h-[100%] items-center grid">
         <div>
           <h1 className="text-[35px] lg:text-[50px] font-bold text-white">
-            OLÁ, EU SOU <span className="text-yellow-400">ANTONIO FERREIRA!</span>
+            OLÁ, SOMOS A <span className="text-red-500">RECONCAVOS!</span>
           </h1>
           <TextEffect />
           <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">
@@ -23,26 +23,26 @@ const Home = () => {
             Fundador da RECONCAVOS, empresa focada em transformar ideias em realidade através da tecnologia.
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
-            <a
+            {/* <a
               href="#"
               download="AntonioFerreira-Curriculo.pdf"
-              className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6e5] text-black flex items-center space-x-2"
+              className="px-[2rem] hover:bg-red-600 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-red-500 text-white flex items-center space-x-2"
             >
               <p>Download Cv</p>
               <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
-            </a>
+            </a> */}
             <a
-              href="https://wa.me/5571999999999"
+              href="https://wa.me/5575999838159"
               className="flex items-center space-x-2"
               target="_blank"
               rel="noreferrer"
             >
-              <IoLogoWhatsapp className="w-[4rem] h-[4rem] text-[#55e6e5] hover:text-yellow-400 transition-all duration-200" />
+              <IoLogoWhatsapp className="w-[4rem] h-[4rem] text-red-500 hover:text-red-400 transition-all duration-200" />
               <p className="text-[20px] font-semibold text-white">Whatsapp</p>
             </a>
           </div>
         </div>
-        <div className="w-[500px] hidden bg-[#55e6e5] relative lg:flex items-center rounded-full h-[500px]">
+        <div className="w-[500px] hidden bg-red-500 relative lg:flex items-center rounded-full h-[500px]">
           <Image
             src="/images/perfil03.jpeg"
             alt="user"

@@ -12,8 +12,8 @@ const Nav = ({ openNav }: Props) => {
     <div className="w-[100%] fixed z-[10000] top-0 h-[12vh] bg-[#141c27] shadow-md">
       <div className="flex justify-between items-center w-[80%] h-[100%] mx-auto">
         <h1 className=" flex-[0.6] cursor-pointer text-[35px] text-white font-bold home">
-          KAIO
-          <span className="text-yellow-300">DEV</span>
+          RECONCA
+          <span className="text-yellow-300">VOOS</span>
         </h1>
         <div className="nav-link">
           <ScrollLink to="nav" smooth={true} duration={500} offset={-70}>
@@ -35,11 +35,11 @@ const Nav = ({ openNav }: Props) => {
             PROJETOS
           </ScrollLink>
         </div>
-        <div className="nav-link">
+        {/* <div className="nav-link">
           <ScrollLink to="blogs" smooth={true} duration={500} offset={-70}>
             BLOGS
           </ScrollLink>
-        </div>
+        </div> */}
         <div className="nav-link">
           <ScrollLink to="contact" smooth={true} duration={500} offset={-70}>
             CONTATO
