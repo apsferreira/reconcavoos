@@ -14,24 +14,24 @@ const About = () => {
             className="text-[25px] font-bold md:text-[35px] lg:text-[45px] md:leading-[3rem] leading-[2rem] capitalize mb-[3rem]
           text-white"
           >
-            Transformando <span className="text-yellow-400">Visões</span>
+            Transformando <span className="text-yellow-400">Ideias em Realidade</span>
           </h2>
           <div className="mb-[3rem] flex items-center md:space-x-10">
             <span className="w-[100px] hidden md:block h-[5px]  bg-slate-400 rounded-sm"></span>
             <p className="text-[19px] text-slate-300 w-[80%] ">
-              Como Desenvolvedor Frontend, acredito que a tecnologia não é
-              apenas uma ferramenta, mas um meio para transformar visões em
+              Como Desenvolvedor Frontend e Fundador da RECONCAVOS, acredito que a tecnologia não é
+              apenas uma ferramenta, mas um meio para transformar ideias em
               realidades palpáveis. Cada projeto é uma oportunidade de traduzir
-              ideias em interfaces intuitivas, funcionais e esteticamente
+              visões em interfaces intuitivas, funcionais e esteticamente
               agradáveis. Para mim, desenvolvimento frontend é mais do que
               escrever código; é sobre entender a visão de cada cliente,
               alinhar-se aos seus objetivos e trabalhar de forma colaborativa
               para criar soluções que impactam e fazem a diferença. Vamos
-              transformar suas visões em realidade.
+              transformar suas ideias em realidade através da RECONCAVOS.
             </p>
           </div>
           <a
-            href="https://wa.me/5571986497888"
+              href="https://wa.me/5571999999999"
             className="flex items-center space-x-2 "
             target="_blank"
             rel="noreferrer"

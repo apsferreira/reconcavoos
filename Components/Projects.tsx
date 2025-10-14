@@ -8,7 +8,7 @@ const Projects = () => {
       id="projects"
     >
       <h1 className="heading">
-        Pro<span className="text-yellow-400">jetos</span>
+        Pro<span className="text-yellow-400">jetos</span> & RECONCAVOS
       </h1>
       <div className="w-[80%] mx-auto pt-[2rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] lg:grid-cols-3">
         <div data-aos="fade-up">

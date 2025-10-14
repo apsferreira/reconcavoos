@@ -30,7 +30,7 @@ const Footer = () => {
 
         <div className="flex items-center space-x-6">
           <a
-            href="https://wa.me/5571986497888"
+            href="https://wa.me/5571999999999"
             target="_blank"
             rel="noreferrer"
             className="md:w-[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center 

@@ -1,7 +1,7 @@
 [PROJECT__URL]:https://my-portfolio-xi-eight-43.vercel.app/
 [PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
 
-<h1 align="center" style="font-weight: bold;">My Portfólio</h1>
+<h1 align="center" style="font-weight: bold;">Antonio Ferreira - Portfolio & RECONCAVOS</h1>
 <p align="center">
  <a href="#sobre">Sobre</a> • 
  <a href="#layout">Layout</a> • 
@@ -23,7 +23,7 @@
 
 [![project][PROJECT__BADGE]][PROJECT__URL]
 
-<p>Bem-vindo ao repositório do meu site de portfólio pessoal! Este projeto exibe minhas habilidades e projetos como desenvolvedor frontend. Foi construído com Next.js, Tailwind CSS e outras tecnologias modernas da web.</p>
+<p>Bem-vindo ao repositório do meu site de portfólio pessoal! Este projeto exibe minhas habilidades e projetos como desenvolvedor frontend e fundador da RECONCAVOS. Foi construído com Next.js, Tailwind CSS e outras tecnologias modernas da web.</p>
 
 <h2 align="center">📦 Funcionalidades</h2>
 <ul>
@@ -32,6 +32,7 @@
   <li>Componentes Interativos: Inclui animações e elementos interativos.</li>
   <li>UI Moderna: Utiliza Tailwind CSS para um visual limpo e moderno.</li>
   <li>Navegação Fácil: Rolagem suave e seções bem organizadas.</li>
+  <li>Integração RECONCAVOS: Apresentação da empresa e serviços oferecidos.</li>
 </ul>
 
 <h2 align="center" id="layout">Layout</h2>
@@ -85,7 +86,7 @@ npm run dev
 ```
 
 <h2 " align="center">💡Aprendizado</h2>
-<p>Este projeto me permitiu aprimorar minhas habilidades em Next.js, React, TypeScript e Tailwind CSS. Aprendi a integrar várias bibliotecas e tecnologias modernas, diversas bibliotecas React para criar uma interface de usuário responsiva e interativa. Trabalhei com a passagem de dados e gerenciamento de estado entre componentes, melhorando a fluidez e a dinâmica da aplicação. Experimentei a personalização de carrosséis e animações, o que ajudou a otimizar o desempenho e a experiência do usuário.</p>
+<p>Este projeto me permitiu aprimorar minhas habilidades em Next.js, React, TypeScript e Tailwind CSS. Aprendi a integrar várias bibliotecas e tecnologias modernas, diversas bibliotecas React para criar uma interface de usuário responsiva e interativa. Trabalhei com a passagem de dados e gerenciamento de estado entre componentes, melhorando a fluidez e a dinâmica da aplicação. Experimentei a personalização de carrosséis e animações, o que ajudou a otimizar o desempenho e a experiência do usuário. Além disso, este projeto representa a integração da minha empresa RECONCAVOS, demonstrando como posso apresentar tanto minhas habilidades pessoais quanto os serviços da empresa de forma profissional e atrativa.</p>
 
 <h2 align="center" id="autor">Autor</h2>
 <h3 align="center">Antonio Ferreira</h3>

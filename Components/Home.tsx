@@ -15,27 +15,24 @@ const Home = () => {
       <div className="w-[80%] grid-cols-1 mx-auto lg:grid-cols-2 gap-[3rem] h-[100%] items-center grid">
         <div>
           <h1 className="text-[35px] lg:text-[50px] font-bold text-white">
-            OLÁ, EU SOU <span className="text-yellow-400">KAIO VINICIUS!</span>
+            OLÁ, EU SOU <span className="text-yellow-400">ANTONIO FERREIRA!</span>
           </h1>
           <TextEffect />
           <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">
-            Sou um Desenvolvedor de Software Frontend, altamente motivado e
-            dedicado, atualmente cursando Análise e Desenvolvimento de Sistemas.
+            Sou um Desenvolvedor de Software Frontend especializado em soluções digitais inovadoras. 
+            Fundador da RECONCAVOS, empresa focada em transformar ideias em realidade através da tecnologia.
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
             <a
-              href="https://docs.google.com/document/d/1UijNrB7JvNWO8PxhwHwJlY23A8W3wl_2Tjpfb9MOrew/export?format=pdf
-
-
-              "
-              download="KaioCurriculo.pdf"
+              href="#"
+              download="AntonioFerreira-Curriculo.pdf"
               className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6e5] text-black flex items-center space-x-2"
             >
               <p>Download Cv</p>
               <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
             </a>
             <a
-              href="https://wa.me/5571986497888"
+              href="https://wa.me/5571999999999"
               className="flex items-center space-x-2"
               target="_blank"
               rel="noreferrer"
