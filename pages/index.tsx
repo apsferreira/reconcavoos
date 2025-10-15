@@ -6,7 +6,6 @@ import MobileNav from "@/Components/MobileNav";
 import Nav from "@/Components/Nav";
 import Projects from "@/Components/Projects";
 import Services from "@/Components/Services";
-import Skils from "@/Components/Skils";
 import Testimonial from "@/Components/Testimonial";
 import React, { useEffect } from "react";
 import AOS from "aos";
@@ -48,7 +47,7 @@ const HomePage = () => {
     <div className="overflow-x-hidden">
       <Head>
         <title>AntonioDev</title>
-        <link rel="icon" href="/images/avatar01.png" />
+        <link rel="icon" href="/images/reconcavoos.jpg" />
       </Head>
       <div>
         <MobileNav nav={nav} closeNav={closeNav} />
@@ -59,7 +58,7 @@ const HomePage = () => {
           <Services />
           <Projects />
           <Testimonial />
-          <Blog />
+          {/* <Blog /> */}
           <Footer />
         </div>
       </div>

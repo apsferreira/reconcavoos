@@ -7,9 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export",
+    "export": "next build",
     "deploy": "gh-pages -d out",
-    "predeploy": "next build && next export"
+    "predeploy": "next build"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.5",
@@ -34,6 +34,7 @@
     "autoprefixer": "^10.4.20",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.10",
     "typescript": "^5"

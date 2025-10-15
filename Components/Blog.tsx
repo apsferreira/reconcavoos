@@ -55,7 +55,7 @@ const Blog = () => {
         </div>
 
         <div data-aos="fade-up" data-aos-delay="600">
-          <div className="w-[100%] relative h-[400px]">
+          {/* <div className="w-[100%] relative h-[400px]">
             <Image
               src="/images/github.png"
               alt="github"
@@ -63,7 +63,7 @@ const Blog = () => {
               style={{ objectFit: "contain" }}
               className="object-contain"
             />
-          </div>
+          </div> */}
           <div className="w-[90%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[-1rem]">
             <a
               href="https://github.com/antonio-ferreira"
@@ -71,7 +71,7 @@ const Blog = () => {
               rel="noopener noreferrer"
             >
               <button className="w-fit px-[2rem] py-[1rem] bg-red-500 relative mt-[-3rem] text-white font-semibold text-[17px] mx-auto hover:bg-red-600 transition-all duration-200">
-                Venha conhecer mais projetos no meu Github
+                Venha conhecer nossos projetos no instagram
               </button>
             </a>
           </div>

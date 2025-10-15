@@ -8,7 +8,7 @@ const About = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center">
         <div>
           <h1 className="text-[20px] font-bold uppercase text-red-500 mb-[1rem] ">
-            SOBRE A <span className="text-red-500">RECONCAVOS</span>
+            SOBRE A <span className="text-red-500">RECONCAVOOS</span>
           </h1>
           <h2
             className="text-[25px] font-bold md:text-[35px] lg:text-[45px] md:leading-[3rem] leading-[2rem] capitalize mb-[3rem]
