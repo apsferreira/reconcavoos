@@ -1,5 +1,4 @@
 import React from "react";
-import Particle from "./Particle";
 import TextEffect from "./TextEffect";
 import Image from "next/image";
 import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
@@ -11,7 +10,6 @@ const Home = () => {
       className="h-[88vh] bg-[url('/images/banner.jpg')] mt-[10vh] bg-cover bg-center"
       id="nav"
     >
-      <Particle />
       <div className="w-[80%] grid-cols-1 mx-auto lg:grid-cols-1 gap-[3rem] h-[100%] items-center grid">
         <div>
           <h1 className="text-[35px] lg:text-[50px] font-bold text-white">
