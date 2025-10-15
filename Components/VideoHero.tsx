@@ -1,6 +1,19 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 const VideoHero = () => {
+  const iframeRef = useRef<HTMLIFrameElement>(null);
+
+  useEffect(() => {
+    // Force video to play after iframe loads
+    const timer = setTimeout(() => {
+      if (iframeRef.current) {
+        iframeRef.current.src = iframeRef.current.src + '&t=0';
+      }
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div
       className="relative w-full h-screen overflow-hidden bg-black"
@@ -8,20 +21,21 @@ const VideoHero = () => {
     >
       {/* Video Background */}
       <div className="absolute inset-0 w-full h-full">
-          <iframe
-            src="https://www.youtube.com/embed/obkrMiyDrbs?autoplay=1&mute=0&loop=1&playlist=obkrMiyDrbs&controls=1&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&fs=0&cc_load_policy=0&disablekb=1&playsinline=1&enablejsapi=1"
-            title=""
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            className="absolute top-0 left-0 w-full h-full object-cover"
-            style={{ 
-              border: 'none',
-              transform: 'scale(1.1)',
-              minWidth: '100%',
-              minHeight: '100%'
-            }}
-          ></iframe>
+        <iframe
+          ref={iframeRef}
+          src="https://www.youtube.com/embed/obkrMiyDrbs?autoplay=1&mute=0&loop=1&playlist=obkrMiyDrbs&controls=1&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&fs=1&cc_load_policy=0&disablekb=0&playsinline=1&enablejsapi=1&start=0"
+          title="RECONCAVOOS Video"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+          className="absolute top-0 left-0 w-full h-full object-cover"
+          style={{ 
+            border: 'none',
+            transform: 'scale(1.1)',
+            minWidth: '100%',
+            minHeight: '100%'
+          }}
+        ></iframe>
       </div>
       
       {/* Subtle overlay for better text readability */}
