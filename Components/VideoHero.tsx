@@ -23,7 +23,7 @@ const VideoHero = () => {
       <div className="absolute inset-0 w-full h-full">
         <iframe
           ref={iframeRef}
-          src="https://www.youtube.com/embed/obkrMiyDrbs?autoplay=1&mute=0&loop=1&playlist=obkrMiyDrbs&controls=1&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&fs=1&cc_load_policy=0&disablekb=0&playsinline=1&enablejsapi=1&start=0"
+          src="https://www.youtube.com/embed/obkrMiyDrbs?autoplay=1&mute=1&loop=1&playlist=obkrMiyDrbs&controls=1&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&fs=1&cc_load_policy=0&disablekb=0&playsinline=1&enablejsapi=1&start=0"
           title="RECONCAVOOS Video"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -47,12 +47,17 @@ const VideoHero = () => {
           <p className="text-white text-[16px] md:text-[18px] mb-6 opacity-80 font-light">
             Transformando histórias em experiências visuais marcantes
           </p>
-          <button 
-            className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
-            onClick={() => window.open('https://wa.me/5575999838159', '_blank')}
-          >
-            Solicitar Orçamento
-          </button>
+          <div className="flex flex-col items-center space-y-4">
+            <button 
+              className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+              onClick={() => window.open('https://wa.me/5575999838159', '_blank')}
+            >
+              Solicitar Orçamento
+            </button>
+            <p className="text-white text-sm opacity-60">
+              🔊 Clique no vídeo para ativar o áudio
+            </p>
+          </div>
         </div>
       </div>
       
