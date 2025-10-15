@@ -1,6 +1,7 @@
 import About from "@/Components/About";
 import Blog from "@/Components/Blog";
 import Footer from "@/Components/Footer";
+import Home from "@/Components/Home";
 import MobileNav from "@/Components/MobileNav";
 import Nav from "@/Components/Nav";
 import Projects from "@/Components/Projects";
@@ -59,6 +60,7 @@ const HomePage = () => {
           <Services />
           <Projects />
           <Testimonial />
+          <Home />
           <Footer />
         </div>
       </div>
