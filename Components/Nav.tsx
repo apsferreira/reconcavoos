@@ -46,7 +46,7 @@ const Nav = ({ openNav }: Props) => {
           </ScrollLink>
         </div>
         <div onClick={openNav}>
-          <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-yellow-300" />
+          <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-red-500" />
         </div>
       </div>
     </div>

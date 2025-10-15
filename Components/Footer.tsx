@@ -83,7 +83,7 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               {" "}
-              <span>Antonio Pedro Ferreira</span>
+              <span>Antonio Pedro Ferreira </span>
             </a>
              - Todos os direitos reservados.
           </p>
