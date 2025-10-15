@@ -26,8 +26,18 @@ const Nav = ({ openNav }: Props) => {
           </ScrollLink>
         </div>
         <div className="nav-link">
+          <ScrollLink to="video-hero" smooth={true} duration={500} offset={-70}>
+            VÍDEO
+          </ScrollLink>
+        </div>
+        <div className="nav-link">
           <ScrollLink to="services" smooth={true} duration={500} offset={-70}>
             SERVIÇOS
+          </ScrollLink>
+        </div>
+        <div className="nav-link">
+          <ScrollLink to="videos" smooth={true} duration={500} offset={-70}>
+            VÍDEOS
           </ScrollLink>
         </div>
         <div className="nav-link">

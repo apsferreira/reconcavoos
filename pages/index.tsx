@@ -7,6 +7,8 @@ import Nav from "@/Components/Nav";
 import Projects from "@/Components/Projects";
 import Services from "@/Components/Services";
 import Testimonial from "@/Components/Testimonial";
+import Videos from "@/Components/Videos";
+import VideoHero from "@/Components/VideoHero";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
@@ -53,12 +55,13 @@ const HomePage = () => {
         <MobileNav nav={nav} closeNav={closeNav} />
         <Nav openNav={openNav} />
         <Home />
+        <VideoHero />
         <div className="relative z-[30]">
           <About />
           <Services />
+          <Videos />
           <Projects />
           <Testimonial />
-          {/* <Blog /> */}
           <Footer />
         </div>
       </div>

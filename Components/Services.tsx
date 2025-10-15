@@ -97,28 +97,6 @@ const Services = () => {
             </p>
           </div>
         </div>
-
-        {/* Card RECONCAVOOS */}
-        <div data-aos="zoom-in" data-aos-delay="900" className="md:col-span-2 lg:col-span-3">
-          <div className="bg-black hover:scale-105 transform transition-all duration-300 hover:-rotate-2 uppercase font-semibold text-center p-[2rem] border-2 border-red-500">
-            <div className="w-[8rem] h-[4rem] mx-auto text-white flex items-center justify-center mb-4">
-              <Image
-                src="/images/logos/reconcavos-logo-1.svg"
-                alt="RECONCAVOOS Logo"
-                width={200}
-                height={80}
-                className="object-contain"
-              />
-            </div>
-            <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem] text-white">
-              RECONCAVOOS
-            </h1>
-            <p className="text-[18px] text-[#d3d2d2] font-normal max-w-4xl mx-auto">
-              Uma produtora audiovisual localizada em Santo Amaro no Recôncavo baiano, especializada em criar narrativas autênticas que impulsionam marcas e conectam pessoas. Com criatividade e sensibilidade, desenvolvemos projetos que traduzem histórias em experiências visuais marcantes.
-            </p>
-          </div>
-        </div>
-
       </div>
     </div>
   );

@@ -35,14 +35,9 @@ const TestimonialSlider = () => {
       autoPlaySpeed={5000}
     >
       <ClientReview
-        image="/images/c1.jpg"
-        name="Karen Vanesca"
-        assessment="Trabalhar com o Reconcavoos foi uma experiência incrível! Ele capturou exatamente o que eu precisava para o meu projeto, entregando tudo dentro do prazo e com uma qualidade acima do esperado. Sua atenção aos detalhes e habilidade em resolver problemas rapidamente me impressionaram. Com certeza, continuarei a trabalhar com ele em projetos futuros."
-      />
-      <ClientReview
-        image="/images/c2.png"
-        name="Giovanna Leite"
-        assessment="Reconcavoos demonstrou um profissionalismo exemplar durante todo o desenvolvimento do nosso site. Sua expertise fez toda a diferença, resultando em uma plataforma rápida e responsiva que elevou nosso negócio a outro patamar. Ele foi sempre muito comunicativo e aberto a sugestões, tornando a colaboração muito produtiva."
+        image="/images/samara.jpg"
+        name="Samara"
+        assessment="Obrigado por registrar esse dia tão especial."
       />
     </Carousel>
   );
