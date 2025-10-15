@@ -12,18 +12,18 @@ const Projects = () => {
       </h1>
       <div className="w-[80%] mx-auto pt-[2rem] flex justify-center">
         <div data-aos="fade-up">
-          <div className="trasnsform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[400px] md:h-[500px] max-w-[800px]">
+          <div className="trasnsform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[400px] md:h-[500px] max-w-[800px] bg-gray-900 rounded-lg overflow-hidden">
             <a
               href="https://antoniopedro.com.br"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image
-                src="/images/antoniopedro-com-br.svg"
+                src="/images/antoniopedro-portfolio.svg"
                 alt="Antonio Pedro - Portfolio"
                 fill
-                className="object-contain rounded-lg shadow-lg"
-                style={{ objectFit: "contain" }}
+                className="object-cover rounded-lg shadow-lg"
+                style={{ objectFit: "cover" }}
               />
             </a>
             <div className="mt-4 text-center">
