@@ -10,112 +10,26 @@ const Projects = () => {
       <h1 className="heading">
         Nossos <span className="text-red-500">Projetos</span>
       </h1>
-      <div className="w-[80%] mx-auto pt-[2rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] lg:grid-cols-3">
+      <div className="w-[80%] mx-auto pt-[2rem] flex justify-center">
         <div data-aos="fade-up">
-          <div className="trasnsform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]">
+          <div className="trasnsform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[400px] md:h-[500px] max-w-[800px]">
             <a
-              href="https://my-portfolio-xi-eight-43.vercel.app/"
+              href="https://antoniopedro.com.br"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image
-                src="/images/meu-portifolio.png"
-                alt="portfolio"
+                src="/images/antoniopedro-com-br.png"
+                alt="Antonio Pedro - Portfolio"
                 fill
-                className="object-contain"
+                className="object-contain rounded-lg shadow-lg"
                 style={{ objectFit: "contain" }}
               />
             </a>
-          </div>
-        </div>
-
-        <div data-aos="fade-up" data-aos-delay="300">
-          <div className="trasnsform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]">
-            <a
-              href="https://site-karen.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/images/site-karen.png"
-                alt="portfolio"
-                fill
-                className="object-contain"
-                style={{ objectFit: "contain" }}
-              />
-            </a>
-          </div>
-        </div>
-
-        <div data-aos="fade-up" data-aos-delay="600">
-          <div className="trasnsform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]">
-            <a
-              href="https://api-github-dev-tau.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/images/api-github.png"
-                alt="portfolio"
-                fill
-                className="object-contain"
-                style={{ objectFit: "contain" }}
-              />
-            </a>
-          </div>
-        </div>
-
-        <div data-aos="fade-up" data-aos-delay="900">
-          <div className="trasnsform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]">
-            <a
-              href="https://black-nextjs-nu.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/images/black-next.png"
-                alt="portfolio"
-                fill
-                className="object-contain"
-                style={{ objectFit: "contain" }}
-              />
-            </a>
-          </div>
-        </div>
-
-        <div data-aos="fade-up" data-aos-delay="1200">
-          <div className="trasnsform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]">
-            <a
-              href="https://antonio-ferreira.github.io/jogo-da-memoria/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/images/jogo-da-memoria.png"
-                alt="portfolio"
-                fill
-                className="object-contain"
-                style={{ objectFit: "contain" }}
-              />
-            </a>
-          </div>
-        </div>
-
-        <div data-aos="fade-up" data-aos-delay="1500">
-          <div className="trasnsform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]">
-            <a
-              href="https://site-giovanna-five.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/images/site-giovanna.png"
-                alt="portfolio"
-                fill
-                className="object-contain"
-                style={{ objectFit: "contain" }}
-              />
-            </a>
+            <div className="mt-4 text-center">
+              <h3 className="text-white text-xl font-semibold mb-2">Antonio Pedro</h3>
+              <p className="text-gray-300 text-sm">Portfolio pessoal desenvolvido com Next.js</p>
+            </div>
           </div>
         </div>
       </div>
