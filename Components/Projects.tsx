@@ -19,7 +19,7 @@ const Projects = () => {
               rel="noopener noreferrer"
             >
               <Image
-                src="/images/antoniopedro-com-br.png"
+                src="/images/antoniopedro-com-br.svg"
                 alt="Antonio Pedro - Portfolio"
                 fill
                 className="object-contain rounded-lg shadow-lg"
