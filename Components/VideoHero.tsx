@@ -6,10 +6,6 @@ const VideoHero = () => {
       className="bg-black pt-[4rem] md:pt-[8rem] pb-[5rem]"
       id="video-hero"
     >
-      <h1 className="heading">
-        Conheça a <span className="text-red-500">RECONCAVOOS</span>
-      </h1>
-      
       <div className="w-[90%] mx-auto pt-[2rem]">
         <div className="relative w-full h-[400px] md:h-[600px] lg:h-[700px] rounded-lg overflow-hidden shadow-2xl">
           <iframe
