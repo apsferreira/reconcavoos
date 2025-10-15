@@ -45,6 +45,12 @@ const Nav = ({ openNav }: Props) => {
             CONTATO
           </ScrollLink>
         </div>
+        <button 
+          className="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-lg text-sm font-bold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl ml-4"
+          onClick={() => window.open('https://wa.me/5575999838159', '_blank')}
+        >
+          Solicitar Orçamento
+        </button>
         <div onClick={openNav}>
           <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-red-500" />
         </div>
