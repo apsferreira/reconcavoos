@@ -13,7 +13,7 @@ const Nav = ({ openNav }: Props) => {
       <div className="flex justify-between items-center w-[80%] h-[100%] mx-auto">
         <h1 className=" flex-[0.6] cursor-pointer text-[35px] text-white font-bold home">
           RECONCA
-          <span className="text-yellow-300">VOOS</span>
+          <span className="text-red-500">VOOS</span>
         </h1>
         <div className="nav-link">
           <ScrollLink to="nav" smooth={true} duration={500} offset={-70}>

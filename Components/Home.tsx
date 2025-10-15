@@ -12,15 +12,14 @@ const Home = () => {
       id="nav"
     >
       <Particle />
-      <div className="w-[80%] grid-cols-1 mx-auto lg:grid-cols-2 gap-[3rem] h-[100%] items-center grid">
+      <div className="w-[80%] grid-cols-1 mx-auto lg:grid-cols-1 gap-[3rem] h-[100%] items-center grid">
         <div>
           <h1 className="text-[35px] lg:text-[50px] font-bold text-white">
-            OLÁ, SOMOS A <span className="text-red-500">RECONCAVOS!</span>
+            OLÁ, SOMOS A <span className="text-red-500">RECONCAVOOS!</span>
           </h1>
           <TextEffect />
           <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">
-            Sou um Desenvolvedor de Software Frontend especializado em soluções digitais inovadoras. 
-            Fundador da RECONCAVOS, empresa focada em transformar ideias em realidade através da tecnologia.
+            Uma produtora audiovisual localizada em Santo Amaro no Recôncavo baiano, especializada em criar narrativas autênticas que impulsionam marcas e conectam pessoas. Com criatividade e sensibilidade, desenvolvemos projetos que traduzem histórias em experiências visuais marcantes.
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
             {/* <a
@@ -42,15 +41,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="w-[500px] hidden bg-red-500 relative lg:flex items-center rounded-full h-[500px]">
-          <Image
-            src="/images/perfil03.jpeg"
-            alt="user"
-            fill
-            style={{ objectFit: "cover" }}
-            className="rounded-full"
-          />
-        </div>
+        
       </div>
     </div>
   );

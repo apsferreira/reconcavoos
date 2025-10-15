@@ -57,7 +57,6 @@ const HomePage = () => {
         <div className="relative z-[30]">
           <About />
           <Services />
-          <Skils />
           <Projects />
           <Testimonial />
           <Blog />
