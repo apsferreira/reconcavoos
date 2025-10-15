@@ -1,7 +1,6 @@
 import About from "@/Components/About";
 import Blog from "@/Components/Blog";
 import Footer from "@/Components/Footer";
-import Home from "@/Components/Home";
 import MobileNav from "@/Components/MobileNav";
 import Nav from "@/Components/Nav";
 import Projects from "@/Components/Projects";
@@ -55,7 +54,6 @@ const HomePage = () => {
         <MobileNav nav={nav} closeNav={closeNav} />
         <Nav openNav={openNav} />
         <VideoHero />
-        <Home />
         <div className="relative z-[30]">
           <About />
           <Services />
