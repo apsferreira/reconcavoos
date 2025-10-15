@@ -14,20 +14,23 @@ const About = () => {
             className="text-[25px] font-bold md:text-[35px] lg:text-[45px] md:leading-[3rem] leading-[2rem] capitalize mb-[3rem]
           text-white"
           >
-            Transformando <span className="text-red-500">Ideias em Realidade</span>
+            Transformando <span className="text-red-500">Histórias em Experiências Visuais</span>
           </h2>
           <div className="mb-[3rem] flex items-center md:space-x-10">
             <span className="w-[100px] hidden md:block h-[5px]  bg-slate-400 rounded-sm"></span>
             <p className="text-[19px] text-slate-300 w-[80%] ">
-              Como Desenvolvedor Frontend e Fundador da RECONCAVOS, acredito que a tecnologia não é
-              apenas uma ferramenta, mas um meio para transformar ideias em
-              realidades palpáveis. Cada projeto é uma oportunidade de traduzir
-              visões em interfaces intuitivas, funcionais e esteticamente
-              agradáveis. Para mim, desenvolvimento frontend é mais do que
-              escrever código; é sobre entender a visão de cada cliente,
-              alinhar-se aos seus objetivos e trabalhar de forma colaborativa
-              para criar soluções que impactam e fazem a diferença. Vamos
-              transformar suas ideias em realidade através da RECONCAVOS.
+              A RECONCAVOOS é uma produtora audiovisual nascida no coração do Recôncavo Baiano, 
+              em Santo Amaro. Nossa missão é criar narrativas autênticas que conectam pessoas 
+              e impulsionam marcas através de experiências visuais marcantes. 
+              
+              Com criatividade e sensibilidade, traduzimos histórias em vídeos institucionais, 
+              comerciais, coberturas de eventos, podcasts e imagens com drone FPV. Cada projeto 
+              é uma oportunidade de capturar a essência única de nossos clientes e transformar 
+              suas visões em conteúdo audiovisual de alta qualidade.
+              
+              Acreditamos que cada história merece ser contada com excelência técnica e 
+              sensibilidade artística, criando conexões emocionais que fazem a diferença 
+              no mundo digital.
             </p>
           </div>
           <a
@@ -37,7 +40,7 @@ const About = () => {
             rel="noreferrer"
           >
             <IoLogoWhatsapp className="w-[4rem] h-[4rem]  text-red-500 hover:text-red-400 transition-all duration-200" />
-            <p className="text-[20px] font-semibold text-white">Whatsapp</p>
+            <p className="text-[20px] font-semibold text-white">Entre em Contato</p>
           </a>
         </div>
         <div
@@ -45,11 +48,11 @@ const About = () => {
           className="lg:w-[500px] lg:h-[500px] relative mx-auto md:mx-0 mt-[2rem] lg:mt-0 w-[300px] h-[300px]"
         >
           <Image
-            src="/images/user06.jpeg"
-            alt="user"
+            src="/images/reconcavoos.jpg"
+            alt="RECONCAVOOS - Produtora Audiovisual"
             fill
-            style={{ objectFit: "contain" }}
-            className="relative z-[11] object-contain"
+            style={{ objectFit: "cover" }}
+            className="relative z-[11] object-cover rounded-lg"
           />
           <div className="absolute w-[80%] h-[100%] z-[10] bg-red-500 top-[-2rem] right-[1.5rem]"></div>
         </div>
