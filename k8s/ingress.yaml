@@ -1,0 +1,23 @@
+# IngressRoute Traefik para antoniopedro.com.br (+ www)
+# TLS via Cloudflare Tunnel — sem cert-manager nem secretName necessários
+apiVersion: traefik.io/v1alpha1
+kind: IngressRoute
+metadata:
+  name: portfolio
+  namespace: portfolio
+  labels:
+    app: portfolio
+    app.kubernetes.io/managed-by: argocd
+spec:
+  entryPoints:
+    - web
+    - websecure
+  routes:
+    - match: Host(`antoniopedro.com.br`) || Host(`www.antoniopedro.com.br`)
+      kind: Rule
+      middlewares:
+        - name: redirect-www
+        - name: security-headers
+      services:
+        - name: portfolio
+          port: 80
