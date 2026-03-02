@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: portfolio
-          image: ghcr.io/apsferreira/portfolio:develop
+          image: ghcr.io/apsferreira/portfolio:sha-e121128
           ports:
             - containerPort: 80
           livenessProbe:
